@@ -10,4 +10,4 @@ userRoutes(app)
 
 app.get('/', (req, res) => res.send('Rota/'))
 
-app.listen (PORT, ()=> console.log("servidor rodando"))
+app.listen (PORT, ()=> console.log("servidor rodando na porta {{PORT}}"))

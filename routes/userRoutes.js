@@ -27,7 +27,7 @@ const userRoutes = (app) => {
             const users = getUsers()
             users.push (req.body)
             saveUser(users)
-            res.status(201).send('Usuário Cdastrado')
+            res.status(201).send('Usuário Cadastrado')
         })
         .put((req, res) => {
             const users = getUsers()
